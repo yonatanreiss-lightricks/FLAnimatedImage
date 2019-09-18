@@ -1,0 +1,25 @@
+version: 2
+jobs:
+  build:
+    macos:
+      xcode: "10.3.0"
+
+    steps:
+      - checkout
+
+      - run:
+          name: Build
+          command: fastlane run xcodebuild build:true
+          environment:
+            SCAN_DEVICE: iPhone 8
+            XCODE_SCHEME: FLAnimatedImage
+
+      - store_test_results:
+          path: test_output
+ 
+      - store_artifacts:
+          path: test_output
+      
+      - store_artifacts:
+          path: ~/Library/Logs/scan
+          destination: scan-logs
