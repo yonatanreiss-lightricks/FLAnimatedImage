@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C22DAEC1BCABF4F006E1D3B /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C22DAE71BCABF4F006E1D3B /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C22DAED1BCABF4F006E1D3B /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22DAE81BCABF4F006E1D3B /* FLAnimatedImage.m */; };
+		0C22DAEE1BCABF4F006E1D3B /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C22DAE91BCABF4F006E1D3B /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C22DAEF1BCABF4F006E1D3B /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C22DAEA1BCABF4F006E1D3B /* FLAnimatedImageView.m */; };
-		84C35646241D1B2D00052A01 /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 84AB1DD9241D0A4F0039C1C7 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84C35647241D1B2D00052A01 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 84AB1DDA241D0A4F0039C1C7 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,7 +100,7 @@
 		92C9BC031B199DC500D79B06 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = com.flipboard;
 				TargetAttributes = {
 					92C9BC0B1B199DC500D79B06 = {
@@ -172,7 +172,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -232,7 +231,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
